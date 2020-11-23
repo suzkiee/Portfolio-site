@@ -1,0 +1,240 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body {
+            font-family: poppins;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #fefbf1;
+            color: #011E3E;
+        }
+        /*         
+        header {
+            display: block;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 100px;
+            position: relative;
+        } */
+        
+        .main-header>h1 {
+            display: inline-block;
+        }
+        
+        .main-nav_item {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 1;
+            display: inline-block;
+            text-align: right;
+            width: 100%;
+            /* margin-left: auto; */
+        }
+        
+        .main-nav_items {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .main-nav a {
+            color: #846670;
+            text-decoration: none;
+            margin: 0 0 0 36px;
+            transition: color 0.3s;
+            transition: margin 0.5s;
+        }
+        
+        .main-nav a:hover {
+            color: #ffe4e0;
+            margin: 0 0 0 48px;
+        }
+        
+        #triangle-header1 {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 125px 200px 125px;
+            border-color: transparent transparent #f8d464 transparent;
+            /* transform: rotate(-114deg); */
+            opacity: 0.8;
+            position: absolute;
+            top: 30px;
+            right: 275px;
+            /* z-index: -1; */
+            animation: rotation 45s infinite linear;
+        }
+        
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg)
+            }
+            to {
+                transform: rotate(359deg)
+            }
+        }
+        
+        #triangle-header1:hover {
+            animation: rotation 1s infinite linear;
+        }
+        
+        #triangle-sideline {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 125px 200px 125px;
+            border-color: transparent transparent #B4D5E8 transparent;
+            /* transform: rotate(10deg); */
+            opacity: 0.8;
+            position: absolute;
+            right: 4px;
+            top: 200px;
+            animation: rotation 60s infinite linear;
+        }
+        
+        #triangle-sideline:hover {
+            animation: rotation 1s infinite linear;
+        }
+        
+        h1 {
+            /* font-size: 70px; */
+            font-weight: 700;
+            font-family: poppins;
+            color: #846670;
+            text-align: left;
+        }
+        
+        h2 {
+            font-size: 48px;
+            font-weight: 400px;
+            font-family: poppins;
+        }
+        
+        section a {
+            color: #846670;
+            text-decoration: none;
+            transition: color 0.3s;
+            transition: margin none;
+        }
+        
+        section a:hover {
+            color: #ffe4e0;
+        }
+        
+        section {
+            margin: 1px;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+        }
+        
+        section h2 {
+            grid-column: 2/span 6;
+            text-align: left;
+        }
+        
+        section p {
+            grid-column: 2/span 5;
+            text-align: left;
+            position: relative
+        }
+        
+        #triangle-body1 {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 66px 220px 109px;
+            border-color: transparent transparent #CAA0AC transparent;
+            opacity: 0.8;
+            /* transform: rotate(45deg); */
+            position: absolute;
+            top: 522px;
+            right: 224px;
+            /* z-index: -1; */
+            animation: rotation 20s infinite linear;
+        }
+        
+        #triangle-body1:hover {
+            animation: rotation 1s infinite linear;
+        }
+        
+        #triangle-body2 {
+            width: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 66px 220px 109px;
+            border-color: transparent transparent #89d1c6 transparent;
+            opacity: 0.8;
+            transform: rotate(211deg);
+            position: absolute;
+            top: -62px;
+            right: 116px;
+            z-index: 1;
+            animation: rotation 17s infinite linear;
+        }
+        
+        #triangle-body2:hover {
+            animation: rotation 1s infinite linear;
+        }
+        
+        #triangle-body3 {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 62.5px 100px 62.5px;
+            border-color: transparent transparent #509233 transparent;
+            transform: rotate(-8deg);
+            opacity: 0.8;
+            position: absolute;
+            right: 492px;
+            bottom: 294px;
+            animation: rotation 9s infinite linear;
+        }
+        
+        #triangle-body3:hover {
+            animation: rotation 1s infinite linear;
+        }
+        
+        footer {
+            font-size: 25px;
+            font-weight: 700;
+            color: #846670;
+            line-height: 1;
+            text-align: left;
+            position: relative;
+            margin: -32px 134px;
+        }
+        
+        #triangle-footer1 {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 125px 200px 125px;
+            border-color: transparent transparent #011E3E transparent;
+            transform: rotate(-140deg);
+            opacity: 0.8;
+            position: absolute;
+            right: 318px;
+            bottom: -150px;
+            animation: rotation 15s infinite linear;
+        }
+        
+        #triangle-footer1:hover {
+            animation: rotation 1s infinite linear;
+        }
+        
+        #triangle-footer2 {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 62.5px 100px 62.5px;
+            border-color: transparent transparent #F6A347 transparent;
+            transform: rotate(-8deg);
+            opacity: 0.8;
+            position: absolute;
+            right: -78px;
+            bottom: -87px;
+            animation: rotation 40s infinite linear;
+        }
+        
+        #triangle-footer2:hover {
+            animation: rotation 1s infinite linear;
+        }
