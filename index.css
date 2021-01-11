@@ -3,6 +3,9 @@ body {
     font-family: poppins;
     background-color: #fefbf1;
     color: #011E3E;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows:5rem minmax(10px, 200px)
 }
 
 .main-header {
