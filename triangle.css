@@ -1,0 +1,14 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(359deg)
+    }
+}
+
+animation: rotation 60s infinite linear;
+
+#triangle-header1:hover {
+    animation: rotation 1s infinite linear;
+}
