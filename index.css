@@ -1,33 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body {
+body{
     font-family: poppins;
     background-color: #fefbf1;
     color: #011E3E;
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows:5rem minmax(10px, 200px)
+    margin-top: none;
+
 }
 
-.main-header {
-    font-size: 70px;
+h2{
+    line-height: 1.8;
+}
+
+.main-header{
+    font-size: 5rem;;
     font-weight: 700;
     font-family: poppins;
     color: #846670;
     margin: 0;
-    grid-column: 5/span 4;
 }
 
-.main-nav {
+.main-nav{
     text-align: right;
     margin-right: 7%;
 }
 
-.main-nav_item {
+ul{
+    margin-top: 0;
+}
+
+.main-nav_item{
     color: #846670;
     display: inline-block;
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: 700;
-    margin: 0 0 0 130px;
+    margin: 0 0 0 3rem;
     transition: color 0.3s;
     transition: margin 0.5s;
 }
@@ -37,8 +43,30 @@ body {
     color: inherit;
 }
 
-.main-nav_item:hover {
+.main-nav_item:hover{
     color: #ffe4e0;
     margin: 0 0 0 100px;
 }
 
+.intro{
+    display: grid;
+    grid-template-columns: repeat(8, 16%);
+    grid-template-rows:5rem minmax(10px, 200px)
+}
+
+.intro__container{
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(8, 16%);
+    grid-template-rows: 5rem minmax(10px, 200px);
+}
+
+.footer-text__container{ 
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+}
