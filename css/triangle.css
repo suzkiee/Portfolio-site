@@ -46,8 +46,8 @@
 
 #triangle2{
     position: absolute;
-    top: 240px;
-    left: 256px;
+    top: 186px;
+    left: 247px;
     grid-row-start: 2;
     width: 0;
     height: 0;
@@ -59,7 +59,7 @@
 
 #triangle3{
     position: absolute;
-    bottom: -700px;
+    bottom: -550px;
     left: 32px; 
     width: 0;
     height: 0; 
@@ -72,7 +72,7 @@
 #triangle4{
     position: absolute;
     top: -55px;
-    right: 250px;
+    right: 150px;
     width: 0;
     height: 0; 
     border-style: solid;
@@ -84,7 +84,7 @@
 #triangle5{
     position: absolute;
     top: 232px;
-    right: 450px;
+    right: 320px;
     width: 0;
     height: 0; 
     border-style: solid;
@@ -95,8 +95,8 @@
 
 #triangle6{
     position: absolute;
-    right: 47px;
-    bottom: -687px;
+    right: 10px;
+    bottom: -575px;
     width: 0;
     height: 0; 
     border-style: solid;
