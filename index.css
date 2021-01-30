@@ -1,33 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body {
+body{
     font-family: poppins;
     background-color: #fefbf1;
     color: #011E3E;
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows:5rem minmax(10px, 200px)
+    margin-top: none;
+
 }
 
-.main-header {
-    font-size: 70px;
+h2{
+    line-height: 1.8;
+}
+
+.main-header{
+    font-size: 5rem;;
     font-weight: 700;
     font-family: poppins;
     color: #846670;
     margin: 0;
-    grid-column: 5/span 4;
 }
 
-.main-nav {
+.main-nav{
     text-align: right;
     margin-right: 7%;
 }
 
-.main-nav_item {
+ul{
+    margin-top: 0;
+}
+
+.main-nav_item{
     color: #846670;
     display: inline-block;
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: 700;
-    margin: 0 0 0 130px;
+    margin: 0 0 0 3rem;
     transition: color 0.3s;
     transition: margin 0.5s;
 }
@@ -35,10 +41,21 @@ body {
 .main-nav_item a{
     text-decoration: none;
     color: inherit;
+
 }
 
-.main-nav_item:hover {
-    color: #ffe4e0;
-    margin: 0 0 0 100px;
+.main-nav_item:hover{
+    color: #ffe4e0; 
+    text-shadow: 1px 2px #846670;
 }
 
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+}
+
+.intro__container{
+    grid-column-start: 2;
+    padding-left: 7.5rem;
+}

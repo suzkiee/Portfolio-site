@@ -1,0 +1,22 @@
+.about-me{
+    display: grid;
+    grid-template-columns: repeat(8, 16%);
+    grid-template-rows: 5rem minmax(10px, 200px);
+}
+
+.about-me__container{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2; 
+}
+
+
+.about-me__header{
+    color: #846670;
+    font-size: 1.25rem;
+}
+
+p {
+    line-height: 2.5;
+    width: 40rem;
+}
