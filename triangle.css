@@ -8,71 +8,117 @@
 }
 
 .triangle-right__container{
-    grid-column-start: 6;
+    position: relative;
+    grid-column-start: 3;
+    height: max-content;
 }
 
 .triangle-left__container{
-    grid-column-start: 2;
+    position: relative;
+    height: max-content;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 #triangle0{
+    position: absolute;
+    top: -35px;
+    left: 250px;
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid #011E3E;
+    border-style: solid;
+    border-width:  0 45px 100px 109px;
+    border-color:transparent transparent #011E3E transparent;
+    transform: rotate(-26deg);
 }
 
 #triangle1{
+    position: absolute;
+    top: -120px;
+    left: 17px; 
     width: 0;
     height: 0;
-    border-left: 80px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid #F8D464;
+    border-style: solid;
+    border-width: 0 120px 221px 120px;
+    border-color:transparent transparent #F8D464 transparent;
+    transform: rotate(10deg);
 }
 
 #triangle2{
+    position: absolute;
+    top: 240px;
+    left: 256px;
+    grid-row-start: 2;
     width: 0;
     height: 0;
-    border-left: 80px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid #FFE4E0;
+    border-style: solid;
+    border-width: 0 90px 200px 90px;
+    border-color: transparent transparent #FFE4E0 transparent;
+    transform: rotate(20deg);
 }
 
 #triangle3{
+    position: absolute;
+    bottom: -700px;
+    left: 32px; 
     width: 0;
     height: 0; 
-    border-left: 50px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom:100px solid #509233;
+    border-style: solid;
+    border-width: 0 60px 100px 60px;
+    border-color:transparent transparent #509233 transparent;
+    transform: rotate(22deg);
 }
 
 #triangle4{
+    position: absolute;
+    top: -55px;
+    right: 250px;
     width: 0;
     height: 0; 
-    border-left: 50px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom:100px solid #CAA0AC;
+    border-style: solid;
+    border-width: 0 90px 170px 90px;
+    border-color:transparent transparent #CAA0AC transparent;
+    transform: rotate(20deg);
 }
 
 #triangle5{
+    position: absolute;
+    top: 232px;
+    right: 450px;
     width: 0;
     height: 0; 
-    border-left: 50px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom:100px solid #FFA500;
+    border-style: solid;
+    border-width: 0 80px 116.5px 80px;
+    border-color: transparent transparent #FFA500 transparent;
+    transform: rotate(42deg);
 }
 
 #triangle6{
+    position: absolute;
+    right: 47px;
+    bottom: -687px;
     width: 0;
     height: 0; 
-    border-left: 50px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom:100px solid #89D1C6;
+    border-style: solid;
+    border-width: 0 160px 180px 160px;
+    border-color: transparent transparent #89D1C6 transparent;
+    transform: rotate(-41deg);
 }
 
 .triangle-section{
     display: grid;
     grid-template-columns: repeat(8, 16%);
     grid-template-rows: 5rem minmax(10px, 200px);
+}
+
+.triangles-sp1{
+    animation: rotation 360s infinite linear;
+}
+
+.triangles-sp2{
+    animation: rotation 240s infinite linear;
+}
+
+.triangles-sp3{
+    animation: rotation 120s infinite linear;
 }
