@@ -14,14 +14,14 @@
 }
 
 .triangle-left__container{
-    position: relative;
+    position: fixed;
     height: max-content;
     grid-column-start: 1;
     grid-row-start: 1;
 }
 
 #triangle0{
-    position: absolute;
+    position: fixed;
     top: -35px;
     left: 250px;
     width: 0;
@@ -35,7 +35,7 @@
 #triangle1{
     position: absolute;
     top: -120px;
-    left: 17px; 
+    left: 17px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -46,13 +46,13 @@
 
 #triangle2{
     position: absolute;
-    top: 186px;
-    left: 247px;
+    top: 210px;
+    left: 200px;
     grid-row-start: 2;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 90px 200px 90px;
+    border-width: 0 80px 150px 80px;
     border-color: transparent transparent #FFE4E0 transparent;
     transform: rotate(20deg);
 }
@@ -60,9 +60,9 @@
 #triangle3{
     position: absolute;
     bottom: -550px;
-    left: 32px; 
+    left: 32px;
     width: 0;
-    height: 0; 
+    height: 0;
     border-style: solid;
     border-width: 0 60px 100px 60px;
     border-color:transparent transparent #509233 transparent;
@@ -74,7 +74,7 @@
     top: -55px;
     right: 150px;
     width: 0;
-    height: 0; 
+    height: 0;
     border-style: solid;
     border-width: 0 90px 170px 90px;
     border-color:transparent transparent #CAA0AC transparent;
@@ -84,21 +84,21 @@
 #triangle5{
     position: absolute;
     top: 232px;
-    right: 320px;
+    right: 300px;
     width: 0;
-    height: 0; 
+    height: 0;
     border-style: solid;
-    border-width: 0 80px 116.5px 80px;
+    border-width: 0 60px 116.5px 60px;
     border-color: transparent transparent #FFA500 transparent;
     transform: rotate(42deg);
 }
 
 #triangle6{
     position: absolute;
-    right: 10px;
+    right: -25px;
     bottom: -575px;
     width: 0;
-    height: 0; 
+    height: 0;
     border-style: solid;
     border-width: 0 160px 180px 160px;
     border-color: transparent transparent #89D1C6 transparent;
@@ -112,10 +112,12 @@
 }
 
 .triangles-sp1{
+  animation-delay: -300ms;
     animation: rotation 360s infinite linear;
 }
 
 .triangles-sp2{
+    animation-delay: 500ms;
     animation: rotation 240s infinite linear;
 }
 

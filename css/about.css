@@ -1,3 +1,7 @@
+body {
+  background-image: url(../images/pink-blue-gradient.png);
+}
+
 .about-me{
     display: grid;
     grid-template-columns: repeat(8, 16%);
@@ -7,7 +11,7 @@
 .about-me__container{
     grid-column-start: 3;
     grid-column-end: 6;
-    grid-row-start: 2; 
+    grid-row-start: 2;
 }
 
 
