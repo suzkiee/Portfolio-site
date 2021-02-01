@@ -1,0 +1,19 @@
+{
+  "name": "suzkiee.github.io",
+  "version": "1.0.0",
+  "description": "I'm a new developer and wanted to try my hand at building a website from scratch. This is my first time coding with HTML, CSS and Javscript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzkiee/suzkiee.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzkiee/suzkiee.github.io/issues"
+  },
+  "homepage": "https://github.com/suzkiee/suzkiee.github.io#readme"
+}
