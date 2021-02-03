@@ -1,0 +1,144 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(359deg)
+    }
+}
+
+.triangle-right__container{
+    position: relative;
+    grid-column-start: 3;
+    height: max-content;
+}
+
+.triangle-left__container{
+    position: fixed;
+    height: max-content;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+#triangle0{
+    position: fixed;
+    top: -35px;
+    left: 250px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width:  0 45px 100px 109px;
+    border-color:transparent transparent #011E3E transparent;
+    transform: rotate(-26deg);
+}
+
+#triangle1{
+    position: absolute;
+    top: -120px;
+    left: 17px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 120px 221px 120px;
+    border-color:transparent transparent #F8D464 transparent;
+    transform: rotate(10deg);
+}
+
+#triangle2{
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    grid-row-start: 2;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 80px 150px 80px;
+    border-color: transparent transparent #FFE4E0 transparent;
+    transform: rotate(20deg);
+}
+
+#triangle3{
+    position: absolute;
+    bottom: -550px;
+    left: 32px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 60px 100px 60px;
+    border-color:transparent transparent #509233 transparent;
+    transform: rotate(22deg);
+}
+
+/* #triangle4{
+    position: absolute;
+    top: -55px;
+    right: 150px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 90px 170px 90px;
+    border-color:transparent transparent #CAA0AC transparent;
+    transform: rotate(20deg);
+} */
+
+#pro-pic {
+  position: absolute;
+  right: 53px;
+  width: 400px;
+  height: 400px;
+  /* background: url(/Users/suziekim/Documents/GitHub/suzkiee.github.io/images/pro-pic.jpg) center center;
+  background-size: cover; */
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+/* //equilateral
+  clip-path: polygon(100% 0, 0 0, 49% 100%); */
+  clip-path: polygon(100% 13%, 15% 0, 20% 100%);
+}
+
+#pro-pic:hover {
+  clip-path: polygon(93% 0, 7% 0, 49% 83%);
+}
+
+/* #photo-triangle{
+    position: absolute;
+    top: 232px;
+    right: 300px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 60px 116.5px 60px;
+    border-color: transparent transparent #FFA500 transparent;
+    transform: rotate(42deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+} */
+
+#triangle6{
+    position: absolute;
+    right: -25px;
+    bottom: -575px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 160px 180px 160px;
+    border-color: transparent transparent #89D1C6 transparent;
+    transform: rotate(-41deg);
+}
+
+.triangle-section{
+    display: grid;
+    grid-template-columns: repeat(8, 16%);
+    grid-template-rows: 5rem minmax(10px, 200px);
+}
+
+.triangles-sp1{
+  animation-delay: -300ms;
+    animation: rotation 360s infinite linear;
+}
+
+.triangles-sp2{
+    animation-delay: 500ms;
+    animation: rotation 240s infinite linear;
+}
+
+.triangles-sp3{
+    animation: rotation 120s infinite linear;
+}
