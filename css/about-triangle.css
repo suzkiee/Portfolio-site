@@ -69,7 +69,7 @@
     transform: rotate(22deg);
 }
 
-#triangle4{
+/* #triangle4{
     position: absolute;
     top: -55px;
     right: 150px;
@@ -79,18 +79,36 @@
     border-width: 0 90px 170px 90px;
     border-color:transparent transparent #CAA0AC transparent;
     transform: rotate(20deg);
+} */
+
+#pro-pic {
+  position: absolute;
+  right: 53px;
+  width: 400px;
+  height: 400px;
+  /* background: url(/Users/suziekim/Documents/GitHub/suzkiee.github.io/images/pro-pic.jpg) center center;
+  background-size: cover; */
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+/* //equilateral
+  clip-path: polygon(100% 0, 0 0, 49% 100%); */
+  clip-path: polygon(100% 13%, 15% 0, 20% 100%);
+}
+
+#pro-pic:hover {
+  clip-path: polygon(93% 0, 7% 0, 49% 83%);
 }
 
 #triangle5{
     position: absolute;
-    top: 232px;
-    right: 300px;
+    top: -70px;
+    right: 15px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 60px 116.5px 60px;
+    border-width: 0 10px 55px 55px;
     border-color: transparent transparent #FFA500 transparent;
     transform: rotate(42deg);
+    z-index: -1;
 }
 
 #triangle6{
