@@ -1,5 +1,7 @@
 body {
-  background-image: url(../images/pink-blue-gradient.png);
+  background-image: url(../images/blue-pink.png);
+  background-position: center;
+  background-size: 100%;
 }
 
 .about-me{
@@ -10,6 +12,8 @@ body {
 
 .about-me__container{
     grid-column-start: 2;
+    width: 80%;
+    padding: 0 100px;
 }
 
 .about-me__header{
@@ -19,5 +23,6 @@ body {
 
 p {
     line-height: 2.5;
-    width: 40rem;
+    width: 30rem;
+    padding:
 }

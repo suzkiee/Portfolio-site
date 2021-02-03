@@ -96,11 +96,11 @@
 #triangle6{
     position: absolute;
     right: -25px;
-    bottom: -575px;
+    bottom: -520px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 160px 180px 160px;
+    border-width: 0 100px 160px 140px;
     border-color: transparent transparent #89D1C6 transparent;
     transform: rotate(-41deg);
 }
