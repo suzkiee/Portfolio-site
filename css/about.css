@@ -6,12 +6,12 @@ body {
 
 .about-me{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 }
 
 .about-me__container{
-    grid-column-start: 2;
+    grid-column-start: 1;
     width: 80%;
     padding: 0 100px;
 }
