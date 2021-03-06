@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url(../images/blue-yellow-gradient.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #011E3E;
+    margin-top: none;
+}
+
+h2{
+    line-height: 1.8;
+}
+
+.main-header{
+    font-family: "Poppins", sans-serif;
+    color: #846670;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0;
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.main-header > div {
+  font-size: 5rem;
+  font-weight:700;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/*
+#logo{
+  font-size: 2.5rem;
+  grid-area: header;
+  grid-column-start: 1;
+  grid-row-start: 1;
+} */
+
+.main-nav{
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 194px);
+  /* grid-column-start: 2;
+  grid-row-start: 1; */
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+}
+
+.main-nav__links{
+    color: #846670;
+    font-size: 1.25rem;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;
+  }
+
+.main-nav__link{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5rem;
+}
+
+li.main-nav__link a,
+.logo a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-nav__link:hover,
+.logo:hover{
+    color: #ffe4e0;
+    text-shadow: 1px 2px #846670;
+    transition: color 0.3s;
+    transition: margin 0.5s;
+}
+
+.intro,
+.about-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  /* grid-gap: 5px; */
+  grid-template-areas:
+  "project1 project2"
+  "project3 projet4";
+}
+
+.main-heading{
+  font-family: "Poppins", sans-serif;
+  color: #846670;
+  font-size: 5rem;
+  font-weight:700;
+}
+
+.intro__container{
+    grid-column-start: 1;
+    width: 65%;
+    margin: auto;
+    border: 10px black;
+}
+
+.featured-project__container{
+  grid-column-start: 2;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+}
+
+.featured-project{
+  height: 500px;
+  background: #FFA;
+  width: 95%;
+  margin: auto;
+  border: 15px #fff;
+  padding: 10px;
+  border-radius: 22px;
+
+}
+
+.featured-project:hover{
+  border: 10px solid white;
+}
+
+.projects{
+ margin-top: 9rem;
+}
+
+.project{
+  height: 500px;
+  /* background: #FFA; */
+  width: 95%;
+  border-radius: 22px;
+  margin: auto auto 7rem auto;
+}
+
+.project-right{
+  grid-column-start: 1;
+  margin: auto;
+}
+
+.project-left{
+  grid-column-start: 2;
+  margin: auto;
+}
+
+.about-me__container{
+    grid-column-start: 2;
+    width: 65%;
+    margin: auto;
+}
+
+.about-me__header{
+    color: #846670;
+    font-size: 1.25rem;
+}
+
+p {
+    line-height: 2.5;
+    width: 30rem;
+  }
+
+.pro-pic__container{
+  grid-column-start: 1;
+  margin: auto;
+  width: 50%;
+}
+
+#pro-pic{
+    border: 3px #fff;
+    border-radius: 22px;
+    height: auto;
+    width: 100%;
+    box-shadow: 35px 17px 10px #f0f8ff;
+}
+
+#social_button {
+ height: 3rem;
+ width: auto;
+ padding-right: .5rem;
+}
+
+/* Need to figure out how to edit SVG elements */
+/* #social_button a{
+  text-decoration: none;
+}
+
+#social_button:hover{
+  color: #ffe4e0;
+  text-shadow: 1px 2px #846670;
+} */
