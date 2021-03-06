@@ -2,27 +2,47 @@
 
 <head>
     <title> Suzie Kim </title>
-    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/projects.css">
     <!-- <link rel="stylesheet" href="./css/triangle.css"> -->
 </head>
 
 <body>
-    <header class="main-header">
+    <!-- <header class="main-header">
+      <div class="main-nav_link" id="logo"> SK </div>
 
         <nav class="main-nav">
-          <div class="logo" class="main-nav_item"> SK <div>
-            <ul class="main-nav_links" class="main-nav__item">
-                <li class="main-nav_link"><a href="about.html"> projects </a></li>
-                <li class="main-nav_link"><a href="about.html"> resume </a></li>
-                <li class="main-nav_link"><a href="about.html"> about me </a></li>
+          <ul class="main-nav_links">
+            <li class="main-nav_link"><a href=#projects> projects </a></li>
+            <li class="main-nav_link"><a href=#pro-pic> about me </a></li>
+            <li class="main-nav_link"><a href=#pro-pic> resume </a></li>
             </ul>
         </nav>
+    </header> -->
+
+    <header class="main-header">
+      <div class="logo">
+        <a class-"noDecoration" href="index.html"> SK </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__links">
+          <li class="main-nav__link">
+            <a class-"noDecoration" href="#projects"> projects </a>
+          </li>
+          <li class="main-nav__link">
+            <a class-"noDecoration" href= #pro-pic> about me </a>
+          </li>
+          <li class="main-nav__link">
+            <a class-"noDecoration" href="#pro-pic"> resume </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <section class="intro">
         <div class="intro__container">
 
-            <h1 class="main-header"> HI, I'M SUZIE!</h1>
+            <h1 class="main-heading"> HI, I'M SUZIE!</h1>
 
             <h2 class="Tagline">
                 I'm a software engineer & crafter.
@@ -34,15 +54,23 @@
 
         </div>
 
-        <div class="featured-project__container"> 
+        <div class="featured-project__container">
           <div class="featured-project"> featured project</div>
         </div>
 
     </section>
 
-    <section class="projects">
-        <div class="project" class="project-right">project 1 </div>
-        <div class="project" class="project-left">project 2 </div>
+    <section class="projects" id="projects">
+        <div class="project" class="project-right">
+          <div class="pacman_factory">
+            <img src="./images/project_photos/pacman_factory.png">
+          </div>
+        </div>
+        <div class="project" class="project-left">
+          <div class="moving_eye">
+            <img src="./images/project_photos/moving_eye.png">
+          </div>
+        </div>
         <div class="project" class="project-right">project 3 </div>
         <div class="project" class="project-left">project 4 </div>
     </section>
