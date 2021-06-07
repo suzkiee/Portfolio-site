@@ -10,6 +10,6 @@ I'm a new developer and wanted to try my hand at building a website from scratch
 - [x] Fix navigation bar links - 6.7.21
 - [ ] Update About me section
 - [ ] Add projects to project gallery 
-- [ ] Edit spacing
+- [x] Edit spacing - 6.7.21
 - [ ] Add JS code that changes the background every 5 seconds
 - [ ] Add CSS animation of profile pic 
