@@ -5,7 +5,6 @@ I'm a new developer and wanted to try my hand at building a website from scratch
 #Roadmap: 
 - [x] Main: Add gradient background color to triangles - 2.23.21
 - [x] Main: Add section for work and resume - 2.23.21
-- [ ] Fork repo for MITxPRO certificate program assignment
 - [ ] ~Crafts: Build interactive gallery linking to~ -2.23.21
 - [x] Fix navigation bar links - 6.7.21
 - [ ] Update About me section
