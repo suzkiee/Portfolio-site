@@ -7,7 +7,7 @@ I'm a new developer and wanted to try my hand at building a website from scratch
 - [x] Main: Add section for work and resume - 2.23.21
 - [ ] Fork repo for MITxPRO certificate program assignment
 - [ ] ~Crafts: Build interactive gallery linking to~ -2.23.21
-- [ ] Fix navigation bar links
+- [x] Fix navigation bar links - 6.7.21
 - [ ] Update About me section
 - [ ] Add projects to project gallery 
 - [ ] Edit spacing
