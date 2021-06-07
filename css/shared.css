@@ -15,47 +15,50 @@ h2{
 }
 
 .main-header{
-    font-size: 5rem;
-    font-weight: 700;
-    font-family: poppins;
-    color: #846670;
-    margin: 0;
-    width: 100%;
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: poppins;
+  color: #846670;
+  margin: 0;
+  width: 100%;
+}
+
+.main-nav{
+  margin: 0 7% 1% 0;
+  width: 100%;
+  display: block;
 }
 
 .logo{
   font-size: 2.5rem;
+  margin-left: 10rem;
   text-align: left;
-}
-
-.main-nav{
-  text-alin: center;
-    margin: 0 7% 1% 0;
-    width: 100%;
-}
-
-.main-nav__item{
   display: inline-block;
 }
 
-ul{
-    margin-top: 0;
+.main-nav_items{
+  display: inline-block;
 }
 
 .main-nav_links{
-    color: #846670;
-    display: inline-block;
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin: 0 0 0 3rem;
-    transition: color 0.3s;
-    transition: margin 0.5s;
-    text-align: right;
+  color: #846670;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  transition: color 0.3s;
+  transition: margin 0.5s;
+  text-align: right;
+  display: inline-block;
+}
+
+.main-nav_link {
+  display: inline-block;
+  margin-right: 2rem;
 }
 
 .main-nav_link a{
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .main-nav_link:hover{
