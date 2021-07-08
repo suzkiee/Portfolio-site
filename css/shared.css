@@ -31,7 +31,7 @@ h2{
 
 .logo{
   font-size: 2.5rem;
-  margin-left: 10rem;
+  margin-left: 8rem;
   text-align: left;
   display: inline-block;
 }
@@ -88,17 +88,19 @@ h2{
 
 .featured-project{
   height: 500px;
-  background: #FFA;
+  background: url(../images/little-esty.png);
+  background-size: cover;
   width: 95%;
   margin: auto;
   border: 15px #fff;
   padding: 10px;
   border-radius: 22px;
-
+  transition: transform 250ms, opacity 400ms;
 }
 
-.featured-project:hover{
-  border: 10px solid white;
+.featured-project:hover,
+.project:hover {
+    transform: translateY(-10px);
 }
 
 .projects{
@@ -111,6 +113,23 @@ h2{
   width: 95%;
   border-radius: 22px;
   margin: auto auto 7rem auto;
+  transition: transform 250ms, opacity 400ms;
+}
+
+.featured-project a, 
+.project a{
+  display: block;
+  height: 100%;
+}
+
+#project-1 {
+  background: url(../images/battleship.png)
+}
+
+#project-2 {
+  background: url(../images/moving-eyes.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .project-right{
